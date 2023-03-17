@@ -1,8 +1,10 @@
 fileFormatVersion: 2
 guid: df0dcc103894a574aac94418bb40e025
+labels:
+- Sky
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
   userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+  assetBundleName: oculus
+  assetBundleVariant: packages
