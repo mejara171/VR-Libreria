@@ -60,8 +60,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _DepthEnd: 100
-    - _DepthStart: 0
-    - _DistortionScale: 17.6
+    - _DepthStart: 2
+    - _DistortionScale: 10.3
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
