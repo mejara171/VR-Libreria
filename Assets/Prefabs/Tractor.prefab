@@ -13215,8 +13215,8 @@ MonoBehaviour:
       doorDamage: 0
       bumper_FDamage: 0
       bumper_RDamage: 0
-  useDamage: 1
-  useCollisionParticles: 1
+  useDamage: 0
+  useCollisionParticles: 0
   useCollisionAudio: 1
   maximumContactSparkle: 5
   velocityDirection: {fileID: 0}
