@@ -10510,6 +10510,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 285953613051221450, guid: be198ff7f795ebe429df7369efe04c8d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 315172553580387675, guid: be198ff7f795ebe429df7369efe04c8d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 610152019027703398, guid: be198ff7f795ebe429df7369efe04c8d,
         type: 3}
       propertyPath: m_Name
@@ -10528,6 +10538,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Robot
+      objectReference: {fileID: 0}
+    - target: {fileID: 687549278072269097, guid: 2c5c250e6e7a7c143bfd3a8dd7dd565a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1018645724724076984, guid: 2c5c250e6e7a7c143bfd3a8dd7dd565a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1074529640147327150, guid: 2c5c250e6e7a7c143bfd3a8dd7dd565a,
         type: 3}
@@ -11241,6 +11261,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "Coste\xF1a"
       objectReference: {fileID: 0}
+    - target: {fileID: 8821800753217398780, guid: 6fa768e90569e3541a43c5938e8ee50d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9011281074726442619, guid: 6fa768e90569e3541a43c5938e8ee50d,
         type: 3}
       propertyPath: m_RootOrder
@@ -11294,6 +11319,11 @@ PrefabInstance:
     - target: {fileID: 9011281074726442619, guid: 6fa768e90569e3541a43c5938e8ee50d,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9062662490038415213, guid: 6fa768e90569e3541a43c5938e8ee50d,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
