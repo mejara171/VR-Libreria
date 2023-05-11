@@ -1377,6 +1377,7 @@ GameObject:
   - component: {fileID: 5173037045895203255}
   - component: {fileID: 2073803815083639260}
   - component: {fileID: 1716726938594740536}
+  - component: {fileID: 1136344834755013862}
   m_Layer: 8
   m_Name: carroca:pPipe5
   m_TagString: Untagged
@@ -1449,6 +1450,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &1136344834755013862
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3096392609979984459}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5341230546176711298, guid: aa57f2585c199c44196615148386a836, type: 3}
 --- !u!1 &3348996661223257328
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,6 +1837,7 @@ GameObject:
   - component: {fileID: 2700540207097484073}
   - component: {fileID: 4774119177939595144}
   - component: {fileID: 8886265863686950029}
+  - component: {fileID: 5321976516452677960}
   m_Layer: 8
   m_Name: carroca:pPipe2
   m_TagString: Untagged
@@ -1894,6 +1910,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5321976516452677960
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4224607946924688725}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 377856709285466129, guid: aa57f2585c199c44196615148386a836, type: 3}
 --- !u!1 &4405596693798970667
 GameObject:
   m_ObjectHideFlags: 0
@@ -11336,7 +11366,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4671209183806076730}
-  m_LocalRotation: {x: 0.00000008146035, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 70.88, y: 4.85, z: -71.550476}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -11410,9 +11440,9 @@ MonoBehaviour:
   SteeringWheel: {fileID: 4671209183828301607}
   steeringWheelRotateAround: 1
   steeringWheelAngleMultiplier: -5
-  wheelTypeChoise: 1
+  wheelTypeChoise: 2
   externalController: 0
-  steeringType: 0
+  steeringType: 1
   steerAngleCurve:
     serializedVersion: 2
     m_Curve:
@@ -11446,7 +11476,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  steerAngle: 40
+  steerAngle: 25
   highspeedsteerAngle: 5
   highspeedsteerAngleAtspeed: 120
   antiRollFrontHorizontal: 1000
@@ -11668,8 +11698,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.43, y: 6.34, z: 7.85}
-  m_Center: {x: 0, y: 1.07, z: 0.27}
+  m_Size: {x: 5.4893837, y: 7.915121, z: 7.8500004}
+  m_Center: {x: -0.016489029, y: 0.2824397, z: 0.26999998}
 --- !u!1 &4671209183821966663
 GameObject:
   m_ObjectHideFlags: 0
@@ -17413,6 +17443,7 @@ GameObject:
   - component: {fileID: 8900218200935106119}
   - component: {fileID: 7112535982148255284}
   - component: {fileID: 9055276775482173852}
+  - component: {fileID: 8151297436912758797}
   m_Layer: 8
   m_Name: carroca:pPipe4
   m_TagString: Untagged
@@ -17485,6 +17516,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &8151297436912758797
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5260652425012634444}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2361817215829087664, guid: aa57f2585c199c44196615148386a836, type: 3}
 --- !u!1 &5506094658369446144
 GameObject:
   m_ObjectHideFlags: 0
@@ -18060,6 +18105,7 @@ GameObject:
   - component: {fileID: 8152452665117745091}
   - component: {fileID: 3009869753645770891}
   - component: {fileID: 6430850716541389474}
+  - component: {fileID: 5430820766237883692}
   m_Layer: 8
   m_Name: carroca:pPipe1
   m_TagString: Untagged
@@ -18132,6 +18178,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5430820766237883692
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7796985020933355369}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4104371622541734463, guid: aa57f2585c199c44196615148386a836, type: 3}
 --- !u!1 &7955456048849114526
 GameObject:
   m_ObjectHideFlags: 0
