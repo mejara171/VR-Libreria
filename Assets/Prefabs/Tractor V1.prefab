@@ -11385,7 +11385,7 @@ GameObject:
   - component: {fileID: 4671209183806076729}
   - component: {fileID: 1229802560}
   m_Layer: 8
-  m_Name: Tractor
+  m_Name: Tractor V1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

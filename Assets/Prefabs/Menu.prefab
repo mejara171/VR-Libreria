@@ -1208,7 +1208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1918526472131180130}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
