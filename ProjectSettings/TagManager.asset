@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - TomatoBox1
+  - gun
+  - Ignite
+  - TomatoBox2
   layers:
   - Default
   - TransparentFX
