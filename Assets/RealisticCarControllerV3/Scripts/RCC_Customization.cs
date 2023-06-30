@@ -442,15 +442,15 @@ public class RCC_Customization : MonoBehaviour {
     /// <summary>
     /// Enable / Disable Steering Limiter while vehicle is drifting. Useful for avoid spinning.
     /// </summary>
-    public static void SetSteeringLimit(RCC_CarControllerV3 vehicle, bool state) {
+    public static void SetSteeringLimit(RCC_CarControllerV3 RodasTractor, bool state) {
 
         //  If no vehicle found, return.
-        if (!CheckVehicle(vehicle))
+        if (!CheckVehicle(RodasTractor))
             return;
 
-        vehicle.useSteeringLimiter = state;
+        RodasTractor.useSteeringLimiter = state;
 
-        OverrideRCC(vehicle);
+        OverrideRCC(RodasTractor);
 
     }
 

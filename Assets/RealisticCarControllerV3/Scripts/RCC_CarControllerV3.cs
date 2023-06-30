@@ -21,6 +21,8 @@ using UnityEngine.EventSystems;
 /// </summary>
 public class RCC_CarControllerV3 : RCC_Core {
 
+   
+
     public bool canControl = true;              // Enables / Disables controlling the vehicle. If enabled, vehicle can receive all inputs from the InputManager.
     public bool isGrounded = false;             // Is vehicle grounded completely now?
     public bool overrideBehavior = false;       //	Vehicle won't be affected by selected behavior in RCC Settings if override is selected.
@@ -413,6 +415,7 @@ public class RCC_CarControllerV3 : RCC_Core {
 
     private void Awake() {
 
+      
         // Setting max angular velocity of the rigid.
         rigid.maxAngularVelocity = RCC_Settings.Instance.maxAngularVelocity;
 
@@ -472,6 +475,8 @@ public class RCC_CarControllerV3 : RCC_Core {
             steerAngleCurve = new AnimationCurve(new Keyframe(0f, 40f), new Keyframe(120f, 7f), new Keyframe(200f, 5f));     //	Steering angle limiter curve based on speed.
 
     }
+  
+
 
     private void OnEnable() {
 
